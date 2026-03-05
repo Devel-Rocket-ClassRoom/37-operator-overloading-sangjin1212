@@ -1,4 +1,12 @@
 using System;
 
-// README.md를 읽고 코드를 작성하세요.
-Console.WriteLine("코드를 작성하세요.");
+struct GameCurrency
+{
+    public int Gold;
+    public int Silver;
+    public GameCurrency(int gold, int silver)
+    { 
+        Gold = gold;
+        Silver = silver;
+    }
+}
